@@ -1,0 +1,8 @@
+.button__options,
+.button__options__left {
+  display: flex;
+}
+
+.button__options__left {
+  flex: 1;
+}

@@ -1,0 +1,66 @@
+.login__block {
+  margin-top: 8%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  margin: auto;
+  width: 32%;
+  border: 1px solid lightgray;
+  padding: 5%;
+}
+
+.login__page__logo {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 45px;
+}
+
+.usernameDetailsComponent {
+  display: flex;
+  flex-direction: column;
+}
+
+.passwordDetailsComponent {
+  display: flex;
+  flex-direction: column;
+}
+
+.usernameDetailsComponent > h4 {
+  margin-top: 2%;
+}
+
+.passwordDetailsComponent > h4 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.usernameDetailsComponent > h4,
+.username__component__title__msg {
+  text-align: center;
+}
+
+.username__component__title__msg {
+  margin-bottom: 10%;
+}
+
+.username__component__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.submit__button {
+  display: block;
+  margin-top: 8%;
+  text-align: right;
+}
+
+.learnmore__button {
+  display: block;
+  text-align: left;
+}

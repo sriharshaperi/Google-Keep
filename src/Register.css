@@ -1,0 +1,74 @@
+.register__block {
+  display: block;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.register {
+  display: flex;
+}
+
+.register__left {
+  display: flex;
+  flex-direction: column;
+  width: 120%;
+}
+
+.register__right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.register__page__image {
+  width: 180px;
+  height: 200px;
+  margin-left: 24%;
+  margin-top: 25%;
+}
+.register__page__logo {
+  width: 100px;
+  height: 45px;
+}
+
+.register__page__title__section {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__form__head,
+.register__form__body,
+.register__form__foot {
+  display: flex;
+}
+
+.register__form__foot {
+  flex-direction: column;
+}
+
+.register__form__foot__top {
+  margin-top: 40px;
+}
+
+.register__form__foot__bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.password__helperText {
+  margin-left: 22px;
+  font-size: 0.9rem;
+  color: "GrayText";
+  opacity: 0.9;
+}

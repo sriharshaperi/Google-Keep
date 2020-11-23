@@ -1,0 +1,22 @@
+.display__trash__notes {
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-top: 5%;
+}
+
+.no__trash__placeholder {
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+}
+.no__trash__placeholder > h1 {
+  opacity: 0.3;
+  text-align: center;
+}
+
+.trash__message {
+  font-style: italic;
+  margin-top: 1%;
+}

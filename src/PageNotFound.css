@@ -1,0 +1,22 @@
+.pagenotfound {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.pagenotfound__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagenotfound__left > img {
+  width: 100px;
+  height: 45px;
+}
+
+.pagenotfound__right {
+  width: 30%;
+  height: 30%;
+}

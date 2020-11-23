@@ -1,0 +1,15 @@
+.display__labels {
+  display: flex;
+  flex-direction: row;
+}
+
+.display__label__input,
+#label__input {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+.new__label__form {
+  border-bottom: 1px solid lightgray;
+}

@@ -1,0 +1,16 @@
+.notes__display {
+  display: block;
+  margin: auto;
+  width: 69%;
+  margin-top: 5%;
+}
+
+.no__notes__placeholder {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.no__notes__placeholder > h1 {
+  opacity: 0.3;
+  text-align: center;
+}

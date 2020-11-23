@@ -1,0 +1,45 @@
+.display__card {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 1%;
+}
+
+.text__data {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 5px;
+}
+
+.display__card__title__input,
+.display__note__input {
+  border: none;
+  outline: none;
+}
+
+.display__card__title__component {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#display__pinned {
+  flex: 0;
+}
+
+.display__card__title__input {
+  flex: 1;
+  height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.display__note__input {
+  font-size: 1rem;
+}
+
+.tags__data {
+  margin-top: 10px;
+}

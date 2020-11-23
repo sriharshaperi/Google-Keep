@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  z-index: 1;
+}
+
+.header__brand__logo {
+  width: 40px;
+  height: 40px;
+}
+
+.header__options {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  z-index: 1;
+}
+
+.header__options__left__corner,
+.header__options__right__corner {
+  display: flex;
+  align-items: center;
+}
+
+.header__options__left__corner,
+.header__options__left__corner > .header__searchbar {
+  flex: 1;
+}
+
+.header__options__right__corner {
+  flex: 0;
+}
+
+.header__options__left__item {
+  margin: 5px;
+}
